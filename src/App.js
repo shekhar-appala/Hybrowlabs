@@ -1,6 +1,6 @@
 
 import './App.css';
-import Problem1 from './Components/Probken1';
+import Problem1 from './Components/Problem';
 import Problem2 from './Components/problem2';
 
 function App() {
