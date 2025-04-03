@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Problem1 from './Components/Probken1';
+import Problem2 from './Components/problem2';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+{/* <h1 style={{ textAlign: "center" }}>Problem1</h1> */}
+      <Problem1/>
+      {/* <h1 style={{ textAlign: "center" }}>Problem2</h1> */}
+    <Problem2 />
     </div>
   );
 }
